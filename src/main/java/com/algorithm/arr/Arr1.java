@@ -1,12 +1,22 @@
 package com.algorithm.arr;
 
-import java.util.Arrays;
 
 /**
- * 求数组中心值索引
+ * <pre>
+ * 寻找数组的中心索引
+ * 给你一个整数数组 nums ，请计算数组的 中心下标 。
  *
- * @author: XiePF
- * @date: 2023/5/9 13:13
+ * 数组 中心下标 是数组的一个下标，其左侧所有元素相加的和等于右侧所有元素相加的和。
+ *
+ * 如果中心下标位于数组最左端，那么左侧数之和视为 0 ，因为在下标的左侧不存在元素。这一点对于中心下标位于数组最右端同样适用。
+ *
+ * 如果数组有多个中心下标，应该返回 最靠近左边 的那一个。如果数组不存在中心下标，返回 -1 。
+ *
+ * 作者：LeetCode
+ * 链接：https://leetcode.cn/leetbook/read/array-and-string/yf47s/
+ * 来源：力扣（LeetCode）
+ * 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+ * <pre/>
  */
 public class Arr1 {
 
